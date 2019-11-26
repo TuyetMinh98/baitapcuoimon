@@ -1,20 +1,20 @@
-Website M�y t�nh Calculator online 
-Gi?i thi?u: M�y t�nh online: 
-	- X�y d?ng m�y t�nh tr�n website.
-	- Ng�n ng? PHP (v� HTML + CSS)
-	- C�ng c?: Sublime Text3.
-	- Ch?c nang: T? co b?n d?n n�ng cao v� c�c ch?c nang nhu x�a 1 k� t? ho?c x�a to�n m�n h�nh.
-		+ Co b?n: C?ng (+), Tr? (-), Nh�n (*), Chia (/).
-		+ N�ng cao: S? mu, luy th?a, giai th?a, c�c ph�p to�n lu?ng gi�c, s? pi,...
-		+ Hu?ng ph�t tri?n cao hon: T�nh phuong tr�nh b?c nh?t, b?c hai.
+﻿Website Máy tính Calculator online 
+Giới thiệu: Máy tính online: 
+	- Xây dựng máy tính trên website.
+	- Ngôn ngữ PHP (và HTML + CSS)
+	- Công cụ: Sublime Text3.
+	- Chức năng: Từ cơ bản đến nâng cao và các chức năng như xóa 1 kí tự hoặc xóa toàn màn hình.
+		+ Cơ bản: Cộng (+), Trừ (-), Nhân (*), Chia (/).
+		+ Nâng cao: Số mũ, lũy thừa, giai thừa, các phép toán lượng giác, số pi,...
+		+ Hướng phát triển cao hơn: Tính phương trình bậc nhất, bậc hai.
 
-Source Code: d� ho�n th�nh ph?n giao di?n c?a c�c ch?c nang. Nhung chua l�m du?c c�c ch?c nang N�ng cao v� gi?i phuong tr�nh.
+Source Code: đã hoàn thành phần giao diện của các chức năng. Nhưng chưa làm được các chức năng Nâng cao và giải phương trình.
 
-HU?NG D?N S? D?NG CODE
-- Trong Git TuyetMinh98 c� 2 source code.
-	1. Code PHP t�n: tm.php
-	2. Code CSS t�n: kha
-B?n mu?n s? d?ng v� ph�t tri?n Source code.
-H�y download 2 source n�y v? luu t?i htdocs Trong file Xampp c?a b?n. Sau d� ch?y ch�ng nhu 1 t?p b?n l�m trong sublime text.
+HƯỚNG DẪN SỬ DỤNG CODE
+- Trong Git TuyetMinh98 có 2 source code.
+	1. Code PHP tên: tm.php
+	2. Code CSS tên: kha
+Bạn muốn sử dụng và phát triển Source code.
+Hãy download 2 source này về lưu tại htdocs Trong file Xampp của bạn. Sau đó chạy chúng như 1 tệp bạn làm trong sublime text.
 
-Th?c m?c vui l�ng g?i gmail: tuyetminh18101998@gmail.com
+Thắc mắc vui lòng gửi gmail: tuyetminh18101998@gmail.com
