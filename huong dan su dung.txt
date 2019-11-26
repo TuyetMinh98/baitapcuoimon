@@ -1,0 +1,20 @@
+Website Máy tính Calculator online 
+Gi?i thi?u: Máy tính online: 
+	- Xây d?ng máy tính trên website.
+	- Ngôn ng? PHP (và HTML + CSS)
+	- Công c?: Sublime Text3.
+	- Ch?c nang: T? co b?n d?n nâng cao và các ch?c nang nhu xóa 1 kí t? ho?c xóa toàn màn hình.
+		+ Co b?n: C?ng (+), Tr? (-), Nhân (*), Chia (/).
+		+ Nâng cao: S? mu, luy th?a, giai th?a, các phép toán lu?ng giác, s? pi,...
+		+ Hu?ng phát tri?n cao hon: Tính phuong trình b?c nh?t, b?c hai.
+
+Source Code: dã hoàn thành ph?n giao di?n c?a các ch?c nang. Nhung chua làm du?c các ch?c nang Nâng cao và gi?i phuong trình.
+
+HU?NG D?N S? D?NG CODE
+- Trong Git TuyetMinh98 có 2 source code.
+	1. Code PHP tên: tm.php
+	2. Code CSS tên: kha
+B?n mu?n s? d?ng và phát tri?n Source code.
+Hãy download 2 source này v? luu t?i htdocs Trong file Xampp c?a b?n. Sau dó ch?y chúng nhu 1 t?p b?n làm trong sublime text.
+
+Th?c m?c vui lòng g?i gmail: tuyetminh18101998@gmail.com
