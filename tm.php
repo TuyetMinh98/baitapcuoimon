@@ -83,7 +83,7 @@
         if (isset($_POST['delMo'])) {
             $message = "(";
         }
-        if (isset($_POST['delDong)'])) {
+        if (isset($_POST['delDong'])) {
             $message = ")";
         }
         if (isset($_POST['delGT'])) {
