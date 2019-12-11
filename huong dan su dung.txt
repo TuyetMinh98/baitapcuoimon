@@ -16,5 +16,24 @@ HƯỚNG DẪN SỬ DỤNG CODE
 	2. Code CSS tên: kha
 Bạn muốn sử dụng và phát triển Source code.
 Hãy download 2 source này về lưu tại htdocs Trong file Xampp của bạn. Sau đó chạy chúng như 1 tệp bạn làm trong sublime text.
+HƯỚNG DẪN:
+# baitapcuoimon
+B1: 
+Mở XAMPP
+Code PHP tên: tm.php
+
+B2: download file tm.php về lưu tại xampp/htdocs
+
+B3: kết nối giao diện css: kha.css
+ 
+	<link rel="stylesheet" type="text/css" href="kha.css">
+
+B4:nhập địa chỉ locallhost kết nối xampp để chạy chương trình;
+  
+	vd: http://localhost:4433/tm.php (4433: cổng )
+
+B5: Đã hiển thị được chương trình. 
+	Thực hiện các phép tính.
+
 
 Thắc mắc vui lòng gửi gmail: tuyetminh18101998@gmail.com
