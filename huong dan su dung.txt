@@ -11,29 +11,25 @@ Giới thiệu: Máy tính online:
 Source Code: đã hoàn thành phần giao diện của các chức năng. Nhưng chưa làm được các chức năng Nâng cao và giải phương trình.
 
 HƯỚNG DẪN SỬ DỤNG CODE
-- Trong Git TuyetMinh98 có 2 source code.
-	1. Code PHP tên: tm.php
-	2. Code CSS tên: kha
-Bạn muốn sử dụng và phát triển Source code.
-Hãy download 2 source này về lưu tại htdocs Trong file Xampp của bạn. Sau đó chạy chúng như 1 tệp bạn làm trong sublime text.
-HƯỚNG DẪN:
-# baitapcuoimon
-B1: 
-Mở XAMPP
-Code PHP tên: tm.php
+1.Mô tả bài toán
+	Xây dựng ứng dụng máy tính bỏ túi CALCULATOR.
+	- Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:
+	+ Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.
+	+ Xử lý: 
+	•	Các phép tính cơ bản như cộng (+), trừ (-), nhân (*), chia (/).
+	•	Các phép tính nâng cao như: sin, cos, tan, mũ, giai thừa,..
+	•	Các phép tính khó như: giải phương trình bậc 2, bậc 3; logic cho hàm mũ,...
+	•	Đổi về số nhị phân để tính toán.
+	•	Chạy giải ma trận 2,3,4.
+	
+	+ Hiển thị: Sau khi xử lý xong phép toán thì sẽ hiện kết quả của phép tính mà nó vừa xử lý xong lên màn hình ngay dòng kết quả. 
+	Hiển thị kết quả số nhị phân nếu sử dụng chức năng tính bằng số nhị phân.
+	+ Lưu các kết quả gần nhất để tiện cho người sử dụng.
+	- Áp dụng cho các đa đối tượng từ các bạn học sinh sinh viên, đến các ngành nghê khác như: giáo viên, kinh doanh,...
+	- Sự dụng cho các đối tượng cụ thể thuộc các môi trường cụ thể như trường học, môi trường doanh nghiệp,...
 
-B2: download file tm.php về lưu tại xampp/htdocs
+2.Mục đích bài toán
 
-B3: kết nối giao diện css: kha.css
- 
-	<link rel="stylesheet" type="text/css" href="kha.css">
-
-B4:nhập địa chỉ locallhost kết nối xampp để chạy chương trình;
-  
-	vd: http://localhost:4433/tm.php (4433: cổng )
-
-B5: Đã hiển thị được chương trình. 
-	Thực hiện các phép tính.
 
 
 Thắc mắc vui lòng gửi gmail: tuyetminh18101998@gmail.com
