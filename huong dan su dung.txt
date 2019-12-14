@@ -73,13 +73,13 @@ HƯỚNG DẪN SỬ DỤNG CODE
 		+ Lưu kết quả gần nhất.
 		+ Xóa 1 số hay Xóa toàn màn hình (trả về 0).
 5 Hướng phát triển để hoàn thiện
+	- Xử lý ngoại lệ tất cả các trường hợp còn thiếu
+	- Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất
+	- Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…
 	- Thiết kế chức năng lưu kết quả trong 5 đến 10 lần gần nhất.
-	- Xử lý các ngoại lệ.
 	- Thêm các chức năng giải phương trình các bậc 2,3; logic và cơ số mũ logic; giải ma trận mxn.
 	- Cho phép nhập các số nhị phân và tính toán.
-	- Chức năng đổi nhiệt độ.
-
-	
+	- Chức năng đổi nhiệt độ (C sang F và ngược lại).
 
 
 
