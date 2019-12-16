@@ -68,3 +68,39 @@
 -	Bước 2: Nếu bạn dùng Xampp cho máy.
 
 ![alt text](hinh/dungxam.png)
+
+<p>Copy folder vừa clone về lưu vào thư mục mới trong htdocs của Xampp</p>
+
+![alt text](hinh/clone.png)
+
+-	Bước 3: Mở Xampp.
+
+![alt text](hinh/moxampp.png)
+
+-	Bước 4: Vào google của bạn nhập locallhost:8080/tm.php
+(-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
+-- tm.php : tên file lưu chương trình của bạn.)
+<p>	Nếu bạn muốn làm việc với code:</p>
+<p>++ Sử dụng 2 file đã được download về trong htdocs mở bằng Sublime Text3.</p>
+<p>••  File tm.php : fie chương trình máy tính bỏ túi bằng code PHP.</p>
+<p>•• File kha.css : file điều chỉnh giao diện máy tính.</p>
+
+<h1>Nội dung bài toán</h1>
+
+<h3>Đã hoàn thành</h3>
+<p>- Chương trình đã hoàn thành phần thiết kế giao diện.</p>
+
+![alt text](hinh/giaodien.png)
+
+<p>- Giải quyết được một số chức năng cơ bản như: </p>
+- Các phép tính cộng, trừ, nhân, chia.
+
+- Các phép mũ, căn bậc 2, số pi, số e.
+
+- Các hàm lượng giác sin, cos, tan.
+
+- Lưu kết quả gần nhất.
+
+- Xóa 1 số hay Xóa toàn màn hình (trả về 0).
+
+
