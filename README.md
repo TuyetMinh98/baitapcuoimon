@@ -61,4 +61,10 @@
 <p>+ Thuật toán xử lý nhập các toán tử và toán hạng: Dùng phương thức POST để lấy các toán tử, toán hạng từ các Button ứng với nó.</p>
 <p>+ Thuật toán xử lý các phép tính: dùng hàm eval hỗ trợ trong ngôn ngữ php.</p>
 
-![alt text](bd/fcb.png)
+<h1>Các bước cài đặt và công cụ hỗ trợ</h1>
+
+- Bước 1: Clone Responsity này về máy của bạn.
+
+-	Bước 2: Nếu bạn dùng Xampp cho máy.
+
+![alt text](hinh/dungxam.png)
