@@ -30,7 +30,7 @@
 <p> - Áp dụng cho các đa đối tượng từ các bạn học sinh sinh viên, đến các ngành nghê khác như: giáo viên, kinh doanh,...</p>
 <p> - Sự dụng cho các đối tượng cụ thể thuộc các môi trường cụ thể như trường học, môi trường doanh nghiệp,...</p>
 
-<h1>Mục đích xây dựng bào toán</h1>
+<h1>Mục đích xây dựng bài toán</h1>
 <h4>Chiếc máy tính bỏ túi là dụng cụ học tập quen thuộc đối với nhiều thế hệ học sinh - sinh viên. Ngoài một công cụ hỗ trợ đắc lực trong việc học tập và thi cử, máy tính còn được sử dụng rộng rãi trong các lĩnh vực khác như kinh doanh, tài chính và trong nhiều lĩnh vực chuyên môn khác. Một thiết bị đơn giản có thể thay thế bạn tính toán những phép tính đơn giản mà không cần dùng phương pháp truyền thống là viết ra giấy hay tính nhẩm. Máy tính giúp con người thực hiện được các phép tính chính xác và nhanh chóng hơn.</h4>
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
@@ -57,5 +57,8 @@
 
 -	Xóa màn hình máy tính hiện có (trả về 0).
 
+<h3>	Hướng giải quyết bài toán</h3>
+<p>+ Thuật toán xử lý nhập các toán tử và toán hạng: Dùng phương thức POST để lấy các toán tử, toán hạng từ các Button ứng với nó.</p>
+<p>+ Thuật toán xử lý các phép tính: dùng hàm eval hỗ trợ trong ngôn ngữ php.</p>
 
 ![alt text](bd/fcb.png)
