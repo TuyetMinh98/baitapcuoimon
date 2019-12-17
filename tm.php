@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CALCULATOR</title>
+    <title>CALCULATOR - MÁY TÍNH BỎ TÚI MIỄN PHÍ</title>
     
     <link rel="stylesheet" type="text/css" href="kha.css">
 </head>
 <body>
 	<div class="header">
-		<u><h1>CALCULATOR </h1></u>
-
+		<u><h1>CALCULATOR</h1></u>
     <?php
     $message=0;
     $current_txt=0;
