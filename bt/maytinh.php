@@ -3,7 +3,7 @@
 <head>
     <title>CALCULATOR - MÁY TÍNH BỎ TÚI MIỄN PHÍ</title>
     
-    <link rel="stylesheet" type="text/css" href="kha.css">
+    <link rel="stylesheet" type="text/css" href="maytinh.css">
 </head>
 <body>
 	<div class="header">
@@ -118,7 +118,7 @@
         if (isset($_POST['selectCos'])) {
             $message = "Cos";
         }
-        if (isset($_POST['selectAns'])) {
+        if (isset($_POST['Ans'])) {
             $message = "Ans";
         }
         if (isset($_POST['selecte'])) {
@@ -137,7 +137,11 @@
             // Append input to formula
             $current_txt .= $message;
         }
+        if ($message == "Ans"){
+            $current_txt = "";
+            $current_result = "0";
 
+        }
         if ($message == "clear") {
             $current_txt = "";
             $current_result = "0";
@@ -198,7 +202,7 @@
             <br>
             <input type="submit" name="select0" value="0">
             <input type="submit" name="selectdot" value=".">
-            <input type="submit" name="selectAns" value="Ans">
+            <input type="submit" name="Ans" value="Ans">
             <input type="submit" name="select+" value="+">
             <td><input type="submit" name="calculate" value="="></td>
             <input type="submit" name="selecte" value="e">
