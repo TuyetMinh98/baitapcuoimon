@@ -83,6 +83,10 @@
 
 ![alt text](hinh/moxampp.png)
 
+<p> Vào phpmyadmin trong localhost của bạn. Sau đó import mysqli vào CSDL của bạn để làm việc phần login và sigin.</p>
+
+![alt text](hinh/Capture.PNG)
+
 -	Bước 4: Vào google của bạn nhập locallhost:8080/tm.php
 (-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
 -- tm.php : tên file lưu chương trình của bạn.)
