@@ -1,4 +1,9 @@
 <?php
-	$connect = mysqli_connect("locahost","root","");
-	$db = mysqli_select_db($connect,"calculator");
+
+	$con = mysqli_connect("localhost", "root","","calculator");
+
+	$sql = "select * from userinfo";
+   
+    $qr = mysqli_query($con,$sql);
+    
 ?>

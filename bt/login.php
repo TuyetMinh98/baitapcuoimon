@@ -20,7 +20,7 @@
 	    </style>
 	</head>
 	<body>
-		<section class="full-box" style="min-height: 10em;">
+		<section class="full-box">
 			<h1>FORM LOGIN</h1>
 				<article class="box-user">
 				<form method="post" style="padding-right: 0.5em; padding-left: 1em;">
