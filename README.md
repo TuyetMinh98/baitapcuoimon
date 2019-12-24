@@ -8,7 +8,9 @@
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
  <p> + Xử lý:</p>
-  
+ 
+- Đăng ký, đăng nhập vào website khi sử dụng Máy tính.
+
 - Các phép tính cơ bản như cộng (+), trừ (-), nhân (*), chia (/).
 
 - Các phép tính nâng cao như: sin, cos, tan, mũ, giai thừa,..
@@ -35,6 +37,8 @@
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
   
+- Tên tài khoản và Passwword của người dùng.
+  
 - Các toán hạng từ 0 đến 9
 
 - Dấu phẩy thập phân.
@@ -48,6 +52,8 @@
 -	Tác động Xóa.	
 
 <p>Output: </p>
+
+- Chương trình Calculator.
 
 -	Các toán hạng, số thập phân được nhập.
 
