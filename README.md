@@ -81,9 +81,7 @@
 (-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
 -- tm.php : tên file lưu chương trình của bạn.)
 <p>	Nếu bạn muốn làm việc với code:</p>
-<p>++ Sử dụng 2 file đã được download về trong htdocs mở bằng Sublime Text3.</p>
-<p>••  File tm.php : fie chương trình máy tính bỏ túi bằng code PHP.</p>
-<p>•• File kha.css : file điều chỉnh giao diện máy tính.</p>
+- Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
 <h1>Nội dung bài toán</h1>
 
