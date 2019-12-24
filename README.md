@@ -8,7 +8,9 @@
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
  <p> + Xử lý:</p>
-  
+ 
+- Đăng ký, đăng nhập vào website khi sử dụng Máy tính.
+
 - Các phép tính cơ bản như cộng (+), trừ (-), nhân (*), chia (/).
 
 - Các phép tính nâng cao như: sin, cos, tan, mũ, giai thừa,..
@@ -35,6 +37,8 @@
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
   
+- Tên tài khoản và Passwword của người dùng.
+  
 - Các toán hạng từ 0 đến 9
 
 - Dấu phẩy thập phân.
@@ -48,6 +52,8 @@
 -	Tác động Xóa.	
 
 <p>Output: </p>
+
+- Chương trình Calculator.
 
 -	Các toán hạng, số thập phân được nhập.
 
@@ -77,13 +83,15 @@
 
 ![alt text](hinh/moxampp.png)
 
+<p> Vào phpmyadmin trong localhost của bạn. Sau đó import mysqli vào CSDL của bạn để làm việc phần login và sigin.</p>
+
+![alt text](hinh/Capture.PNG)
+
 -	Bước 4: Vào google của bạn nhập locallhost:8080/tm.php
 (-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
 -- tm.php : tên file lưu chương trình của bạn.)
 <p>	Nếu bạn muốn làm việc với code:</p>
-<p>++ Sử dụng 2 file đã được download về trong htdocs mở bằng Sublime Text3.</p>
-<p>••  File tm.php : fie chương trình máy tính bỏ túi bằng code PHP.</p>
-<p>•• File kha.css : file điều chỉnh giao diện máy tính.</p>
+- Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
 <h1>Nội dung bài toán</h1>
 
