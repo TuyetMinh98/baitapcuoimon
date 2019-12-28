@@ -53,7 +53,7 @@
 
 <p>Output: </p>
 
-- Chương trình Calculator.
+- Chương trình.
 
 -	Các toán hạng, số thập phân được nhập.
 
@@ -122,7 +122,7 @@
 <p>••	Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất.</p>
 <p>••	Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…</p>
 <p>••	Thiết kế chức năng lưu kết quả trong 5 đến 10 lần gần nhất.</p>
-<p>••	Thêm các chức năng giải phương trình các bậc 2,3; logic và cơ số mũ logic; giải ma trận mxn.</p>
+<p>••	Thêm các chức năng giải phương trình các bậc 3; logic và cơ số mũ logic; giải ma trận mxn.</p>
 <p>••	Cho phép nhập các số nhị phân và tính toán.</p>
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 
