@@ -101,6 +101,7 @@
 ![alt text](hinh/giaodien.png)
 
 <p>- Giải quyết được một số chức năng cơ bản như: </p>
+
 - Các phép tính cộng, trừ, nhân, chia.
 
 - Các phép mũ, căn bậc 2, số pi, số e.
@@ -110,6 +111,11 @@
 - Lưu kết quả gần nhất.
 
 - Xóa 1 số hay Xóa toàn màn hình (trả về 0).
+<p>- Giải phép toán nâng cao hơn như: </p>
+
+- Giải phương trình bậc 2.
+
+- Tính các phép n căn.
 
 <h1>Hướng phát triển cho bài toán</h1>
 <p>••	Xử lý ngoại lệ tất cả các trường hợp còn thiếu.</p>
