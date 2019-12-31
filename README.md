@@ -7,7 +7,7 @@
 <p> - Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:</p>
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
- <p> + Xử lý:</p>
+ <p> + Xử lý chức năng:</p>
  
 - Đăng ký, đăng nhập vào website khi sử dụng Máy tính.
 
@@ -23,9 +23,15 @@
 
 - Đổi độ C sang độ F và ngược lại.
 
- <p> + Hiển thị: Sau khi xử lý xong phép toán thì sẽ hiện kết quả của phép tính mà nó vừa xử lý xong lên màn hình ngay dòng kết quả. Hiển thị kết quả số nhị phân nếu sử dụng chức năng tính bằng số nhị phân.</p>
+ <p> + Hiển thị:</p>
  
- <p> + Lưu các kết quả gần nhất để tiện cho người sử dụng.</p>
+ - Sau khi xử lý xong phép toán thì sẽ hiện kết quả của phép tính mà nó vừa xử lý xong lên màn hình ngay dòng kết quả. 
+ 
+ - Hiển thị kết quả số nhị phân nếu sử dụng chức năng tính bằng số nhị phân.
+ 
+- Lưu các kết quả gần nhất để tiện cho người sử dụng.
+ 
+- Lưu kết quả của các tài khoản đăng nhập.
  
 <h3>Ứng dụng</h3>
 
@@ -53,7 +59,7 @@
 
 <p>Output: </p>
 
-- Chương trình Calculator.
+- Chương trình.
 
 -	Các toán hạng, số thập phân được nhập.
 
@@ -101,6 +107,7 @@
 ![alt text](hinh/giaodien.png)
 
 <p>- Giải quyết được một số chức năng cơ bản như: </p>
+
 - Các phép tính cộng, trừ, nhân, chia.
 
 - Các phép mũ, căn bậc 2, số pi, số e.
@@ -110,13 +117,18 @@
 - Lưu kết quả gần nhất.
 
 - Xóa 1 số hay Xóa toàn màn hình (trả về 0).
+<p>- Giải phép toán nâng cao hơn như: </p>
+
+- Giải phương trình bậc 2.
+
+- Tính các phép n căn.
 
 <h1>Hướng phát triển cho bài toán</h1>
 <p>••	Xử lý ngoại lệ tất cả các trường hợp còn thiếu.</p>
 <p>••	Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất.</p>
 <p>••	Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…</p>
 <p>••	Thiết kế chức năng lưu kết quả trong 5 đến 10 lần gần nhất.</p>
-<p>••	Thêm các chức năng giải phương trình các bậc 2,3; logic và cơ số mũ logic; giải ma trận mxn.</p>
+<p>••	Thêm các chức năng giải phương trình các bậc 3; logic và cơ số mũ logic; giải ma trận mxn.</p>
 <p>••	Cho phép nhập các số nhị phân và tính toán.</p>
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 
