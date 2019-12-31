@@ -7,7 +7,7 @@
 <p> - Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:</p>
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
- <p> + Xử lý:</p>
+ <p> + Xử lý chức năng:</p>
  
 - Đăng ký, đăng nhập vào website khi sử dụng Máy tính.
 
