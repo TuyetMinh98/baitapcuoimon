@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -19,7 +19,7 @@
 	    <style>
 	    	body{
 				background-image: url("back.jpg"); 
-				}
+			}
 	    </style>
 	</head>
 	<body>
