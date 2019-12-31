@@ -27,6 +27,8 @@
  
  <p> + Lưu các kết quả gần nhất để tiện cho người sử dụng.</p>
  
+ <p> + Lưu kết quả của các tài khoản đăng nhập.</p>
+ 
 <h3>Ứng dụng</h3>
 
 <p> - Áp dụng cho các đa đối tượng từ các bạn học sinh sinh viên, đến các ngành nghê khác như: giáo viên, kinh doanh,...</p>
