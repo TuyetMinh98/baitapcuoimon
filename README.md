@@ -23,11 +23,15 @@
 
 - Đổi độ C sang độ F và ngược lại.
 
- <p> + Hiển thị: Sau khi xử lý xong phép toán thì sẽ hiện kết quả của phép tính mà nó vừa xử lý xong lên màn hình ngay dòng kết quả. Hiển thị kết quả số nhị phân nếu sử dụng chức năng tính bằng số nhị phân.</p>
+ <p> + Hiển thị:</p>
  
- <p> + Lưu các kết quả gần nhất để tiện cho người sử dụng.</p>
+ - Sau khi xử lý xong phép toán thì sẽ hiện kết quả của phép tính mà nó vừa xử lý xong lên màn hình ngay dòng kết quả. 
  
- <p> + Lưu kết quả của các tài khoản đăng nhập.</p>
+ - Hiển thị kết quả số nhị phân nếu sử dụng chức năng tính bằng số nhị phân.
+ 
+- Lưu các kết quả gần nhất để tiện cho người sử dụng.
+ 
+- Lưu kết quả của các tài khoản đăng nhập.
  
 <h3>Ứng dụng</h3>
 
