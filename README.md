@@ -83,7 +83,7 @@
 
 <p>Copy folder vừa clone về lưu vào thư mục mới trong htdocs của Xampp</p>
 
-![alt text](hinh/clone.png)
+![alt text](hinh/dungxam.png).........
 
 -	Bước 3: Mở Xampp.
 
