@@ -1,7 +1,7 @@
 # CALCULATOR - ỨNG DỤNG WEB MÁY TÍNH BỎ TÚI MIỄN PHÍ
 <p>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
-<h1>Mô tả bài toán</h1>
-<h3>Công dụng</h3>
+<h1>✈ Mô tả bài toán</h1>
+<h3>☝ Công dụng</h3>
 
 <h4> Công nghệ thông tin đang từng bước đi vào cuộc sống của chúng ta như một người bạn đồng hành, nó có vai trò rất lớn trong sự phát triển của đất nước và trong đời sống của con người. Xây dựng ứng dụng máy tính bỏ túi CALCULATOR để giúp ích cho nhu cầu tính toán của con người với tốc độ nhanh và chính xác.</h4>
 <p> - Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:</p>
@@ -33,12 +33,12 @@
  
 - Lưu kết quả của các tài khoản đăng nhập.
  
-<h3>Ứng dụng</h3>
+<h3>☝ Ứng dụng</h3>
 
 <p> - Áp dụng cho các đa đối tượng từ các bạn học sinh sinh viên, đến các ngành nghê khác như: giáo viên, kinh doanh,...</p>
 <p> - Sự dụng cho các đối tượng cụ thể thuộc các môi trường cụ thể như trường học, môi trường doanh nghiệp,...</p>
 
-<h1>Mục đích xây dựng bài toán</h1>
+<h1>✈ Mục đích xây dựng bài toán</h1>
 <h4>Chiếc máy tính bỏ túi là dụng cụ học tập quen thuộc đối với nhiều thế hệ học sinh - sinh viên. Ngoài một công cụ hỗ trợ đắc lực trong việc học tập và thi cử, máy tính còn được sử dụng rộng rãi trong các lĩnh vực khác như kinh doanh, tài chính và trong nhiều lĩnh vực chuyên môn khác. Một thiết bị đơn giản có thể thay thế bạn tính toán những phép tính đơn giản mà không cần dùng phương pháp truyền thống là viết ra giấy hay tính nhẩm. Máy tính giúp con người thực hiện được các phép tính chính xác và nhanh chóng hơn.</h4>
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
@@ -73,7 +73,7 @@
 <p>+ Thuật toán xử lý nhập các toán tử và toán hạng: Dùng phương thức POST để lấy các toán tử, toán hạng từ các Button ứng với nó.</p>
 <p>+ Thuật toán xử lý các phép tính: dùng hàm eval hỗ trợ trong ngôn ngữ php.</p>
 
-<h1>Các bước cài đặt và công cụ hỗ trợ</h1>
+<h1>⚙ Các bước cài đặt và công cụ hỗ trợ</h1>
 
 - Bước 1: Clone Responsity này về máy của bạn.
 
@@ -123,7 +123,7 @@
 
 - Tính các phép n căn.
 
-<h1>Hướng phát triển cho bài toán</h1>
+<h1>✈ Hướng phát triển cho bài toán</h1>
 <p>••	Xử lý ngoại lệ tất cả các trường hợp còn thiếu.</p>
 <p>••	Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất.</p>
 <p>••	Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…</p>
