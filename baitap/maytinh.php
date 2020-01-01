@@ -1,14 +1,32 @@
 <!DOCTYPE html>
+
 <html>
+<!--<td colspan="2" style="text-align: center;padding-top: 0.5em;">
+<input name="sign-out" value="Đăng xuất" type="submit" />   </td> -->
+<?php
+    //if(isset($_POST['sign-out'])){
+    session_start();
+    if(isset($_SESSION['username'])&&$_SESSION['username']!=NULL)
+    { 
+?>
+    <span> Xin chào: <?php echo $_SESSION['username'];?> / <a href ="login.php" > Thoát </a></span>
+    <a href="index.php"><span>Menu</span></a>
+    <a href="login.php" class="button alt">Sign in</a>
+    <a href="sigin.php" class="button alt">sign up</a>  
+<?php } ?>
 <head>
     <title>CALCULATOR - MÁY TÍNH BỎ TÚI MIỄN PHÍ</title>
+    <header id="header">
     
     <link rel="stylesheet" type="text/css" href="maytinh.css">
 </head>
+
+
 <body>
-	<div class="header">
-		<u><h1>CALCULATOR</h1></u>
+    <div class="header">
+        <u><h1>CALCULATOR</h1></u>
     <?php
+    
     $message=0;
     $current_txt=0;
 // current formula in input box
@@ -18,8 +36,8 @@
         if (isset($_POST['txt_plus'])) {
             $current_result = $_POST['txt_plus'];
         }else{
-		     $current_result = 0;
-		}
+             $current_result = 0;
+        }
         if (isset($_POST['select1'])) {
             $message = "1";
         }
@@ -93,6 +111,7 @@
         }
         if (isset($_POST['selectCan'])) {
             $message = "√";
+           //$message = "sqrt()";
         }
         if (isset($_POST['selectnCan'])) {
             $message = "n√";
@@ -127,16 +146,52 @@
         if (isset($_POST['selectTan'])) {
             $message = "Tan";
         }
-
-        if ($message == "calc") {
-            // Calculate using eval 
-        	$current_result = eval('return ' . $current_txt . ';');
-        } else if ($message == "del") {
-                $current_txt = substr($current_txt,0,strlen($current_txt)-1);
-        } else{
-            // Append input to formula
+    if (isset($_POST['GPTB2']))
+    { 
+        header('Location:ptbachai.php');
+     }
+        if($message!="calc")
+        {
+        
+        if ($message == "del") 
+        {
+         $current_txt = substr($current_txt,0,strlen($current_txt)-1);
+        } else
             $current_txt .= $message;
         }
+       if (isset($_POST['calculate']))
+          
+        {   
+            include "tachChuVaSo.php";
+            $str = strtolower($current_txt); 
+            $temp=isequal($str);
+    
+            if( $temp=="cos")
+            {
+            $x1=explode("Cos",$current_txt);
+            $current_result =cos($x1[1]);
+            
+            }
+            else if( $temp=="sin")
+            {
+            $x1=explode("Sin",$current_txt);
+            $current_result =sin($x1[1]);
+            
+            }
+            else if( $temp=="tan")
+            {
+            $x1=explode("Tan",$current_txt);
+            $current_result =tan($x1[1]);
+            
+            }
+            else if( $temp=="x")
+            {
+            $x1=explode("x2",$current_txt);
+            $current_result =pow("'.$x1[1].'",2);
+            }
+            else  $current_result = eval('return ' . $current_txt . ';');
+        }
+       
         if ($message == "Ans"){
             $current_txt = "";
             $current_result = "0";
@@ -146,6 +201,18 @@
             $current_txt = "";
             $current_result = "0";
         }
+        if ($message=='√')
+            {
+            $temp=array_pad(explode("√",$current_txt),2,null);
+            $current_result =sqrt($temp[1]);
+            }
+        if ( $message=='n√')
+            { include "nthRoot.php";
+            $temp1=array_pad(explode("n√",$current_txt),2,null);
+            $temp=NRoot($temp1[1],$temp1[0]);
+    
+            $current_result =$temp;
+            }   
         
     ?>
 
@@ -166,7 +233,7 @@
             <input type="submit" name="delMo" value="(">
             <input type="submit" name="delDong" value=")">
             <input type="submit" name="delGT" value="!">
-            <input type="submit" name="delab" value="a*b">
+            <input type="submit" name="GPTB2" value="GPTB2">
             <br>
 
             <br>

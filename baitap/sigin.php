@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 	    <title>Calculator-Đăng Kí</title>    
-	    <link type = "text/css" href="css/style.css" rel="stylesheet"/>
+	    <link type = "text/css" href="style.css" rel="stylesheet"/>
 	   <!-- link jquery trên gg dùng mạng chạy -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 	    <script>
@@ -15,7 +15,7 @@
 	    </script>
 	    <style>
 	    	body{
-				background-image: url("back.jpg"); 
+				background-image: url("imag/back.jpg"); 
 				}
 	    </style>
 	</head>
@@ -27,30 +27,31 @@
 						<table>
 							<tr>
 								<td>ID:</td>
-								<td><input name="id" placeholder="Mã ID"/></td>
+								<td><input type ="varchar" name="id" placeholder="Mã ID"/></td>
 							</tr>
 							<tr>
 								<td>Tên Tài Khoản:</td>
-								<td><input name="username" placeholder="Tên tài khoản"/></td>
+								<td><input type ="varchar" name="username" placeholder="Tên tài khoản"/></td>
 							</tr>
 							<tr>
 								<td>Mật Khẩu:</td>
-								<td><input name="password" placeholder="Mật khẩu" type="password"/></td>
+								<td><input type ="varchar" name="password" placeholder="Mật khẩu" type="password"/></td>
 							</tr>
 							<tr>
 								<td>Email:</td>
-								<td><input name="email" placeholder="email"/></td>
+								<td><input   type ="varchar" name="email" placeholder="email"/></td>
 							</tr>
 							<tr>
 								<td>Phone:</td>
-								<td><input name="phone" placeholder="Số điện thoại"/></td>
+								<td><input type ="varchar" name="phone" placeholder="Số điện thoại"/></td>
 							</tr>
 							<tr>
 								<td>Giới Tính:</td>
 								<td><input name="gioitinh" value="Nam" type="radio"/>Nam <input name="gioitinh" value="Nữ" type="radio"/>Nữ</td>
 							</tr>
 							<tr>
-								<td colspan="2" style="text-align: center;padding-top: 0.5em;"><input name="sign-submit" value="Đăng ký" type="submit"/>	<input id="back" value="Quay lại" type="button"/></td>
+								<td colspan="2" style="text-align: center;padding-top: 0.5em;">
+								<input name="sign-submit" value="Đăng ký" type="submit"/>	<input id="back" value="Quay lại" type="button"/></td>
 							</tr>
 						</table>
 					</form>
@@ -68,12 +69,12 @@
 								echo '<p style="text-align: center; padding-top: 1em;">Hãy nhập đầy đủ thông tin !</p>';
 								} else {
 									$password=md5($password);
-									$sql="INSERT INTO 'userinfo'('id','username', 'password', 'email', 'phone', 'gioitinh') VALUES('$id','$username','$password','$email','$phone','$gioitinh')";
-									$query=mysqli_query($con,$sql);
+									$sql1='INSERT INTO userinfo(id,username,password, email, phone, gioitinh) VALUES("'.$id.'","'.$username.'","'.$password.'","'.$email.'","'.$phone.'","'.$gioitinh.'")';
+									$query=mysqli_query($con,$sql1);
 									if($query!=0){
-										echo '<p style="text-align: center; padding-top: 1em;">Bạn đã đăng nhập thành công !</p>';
+										echo '<p style="text-align: center; padding-top: 1em;">Bạn đã đăng kí thành công !</p>';
 									} else{
-										echo '<p style="text-align: center; padding-top: 1em;">Bạn đã đăng nhập không thành công !</p>';
+										echo '<p style="text-align: center; padding-top: 1em;">Bạn đã đăng kí không thành công !</p>';
 									}
 								}
 						}
