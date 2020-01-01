@@ -99,7 +99,7 @@
 <p>	Nếu bạn muốn làm việc với code:</p>
 - Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
-<h1>Nội dung bài toán</h1>
+<h1>📑 Nội dung bài toán</h1>
 
 <h3>Đã hoàn thành</h3>
 <p>- Chương trình đã hoàn thành phần thiết kế giao diện.</p>
@@ -131,4 +131,8 @@
 <p>••	Thêm các chức năng giải phương trình các bậc 3; logic và cơ số mũ logic; giải ma trận mxn.</p>
 <p>••	Cho phép nhập các số nhị phân và tính toán.</p>
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
+<h3>👦 Tác giả</h3>
 
+- 👧🏼 Nguyễn Thị Tuyết Minh
+
+- 👧 Hoàng Thị Mỹ Duyên
