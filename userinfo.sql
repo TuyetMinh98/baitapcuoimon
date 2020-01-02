@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 24, 2019 lúc 10:03 AM
--- Phiên bản máy phục vụ: 10.4.6-MariaDB
--- Phiên bản PHP: 7.3.9
+-- Thời gian đã tạo: Th1 02, 2020 lúc 04:48 PM
+-- Phiên bản máy phục vụ: 10.4.11-MariaDB
+-- Phiên bản PHP: 7.2.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -29,12 +29,12 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `userinfo` (
-  `id` int(10) NOT NULL,
+  `id` varchar(10) NOT NULL,
   `username` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `phone` varchar(50) NOT NULL,
-  `gioitinh` varchar(50) NOT NULL
+  `password` varchar(10) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `phone` int(11) NOT NULL,
+  `gioitinh` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -42,7 +42,8 @@ CREATE TABLE `userinfo` (
 --
 
 INSERT INTO `userinfo` (`id`, `username`, `password`, `email`, `phone`, `gioitinh`) VALUES
-(1, 'Cao Minh', '123456', 'minhcao0011@gmail.com', '0987654327', 'Nam');
+('001', 'tuyetminh', 'minh123', 'tuyetminh18101998@gm', 374885880, 'Nam'),
+('002', 'myduyen', 'duyen123', 'myduyen08081998@gmai', 972486597, 'Nu');
 
 --
 -- Chỉ mục cho các bảng đã đổ
