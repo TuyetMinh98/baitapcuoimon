@@ -57,7 +57,7 @@
 
 -	Tác động Xóa.	
 
-<p>Output: </p>
+<p> + Output: </p>
 
 - Chương trình.
 
@@ -100,6 +100,7 @@
 -- tm.php : tên file lưu chương trình của bạn.)
 
 <p>	Nếu bạn muốn làm việc với code:</p>
+
 - Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
 - Mở code download về trong htdots bằng Sublime Text 3 và thực hành.
@@ -138,6 +139,6 @@
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 <h3>👦 Tác giả</h3>
 
-- 👧🏼 Nguyễn Thị Tuyết Minh
+- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL)
 
-- 👧 Hoàng Thị Mỹ Duyên
+- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS, PHP) 
