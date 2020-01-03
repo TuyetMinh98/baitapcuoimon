@@ -93,11 +93,16 @@
 
 ![alt text](hinh/Capture.PNG)
 
--	Bước 4: Vào google của bạn nhập locallhost:8080/tm.php
-(-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
+-	Bước 4: Vào google của bạn nhập locallhost:8080/baitap/index.php
+
+-- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
+
 -- tm.php : tên file lưu chương trình của bạn.)
+
 <p>	Nếu bạn muốn làm việc với code:</p>
 - Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
+
+- Mở code download về trong htdots bằng Sublime Text 3 và thực hành.
 
 <h1>📑 Nội dung bài toán</h1>
 
