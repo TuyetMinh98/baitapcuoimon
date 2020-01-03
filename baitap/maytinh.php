@@ -9,15 +9,14 @@
     if(isset($_SESSION['username'])&&$_SESSION['username']!=NULL)
     { 
 ?>
-    <span> Xin chào: <?php echo $_SESSION['username'];?> / <a href ="login.php" > Thoát </a></span>
+    <span> Xin chào: <?php echo $_SESSION['username'];?> / <a href ="login.php" >Thoát </a></span>
     <a href="index.php"><span>Menu</span></a>
     <a href="login.php" class="button alt">Sign in</a>
     <a href="sigin.php" class="button alt">sign up</a>  
 <?php } ?>
-<head>
     <title>CALCULATOR - MÁY TÍNH BỎ TÚI MIỄN PHÍ</title>
     <header id="header">
-    
+                    
     <link rel="stylesheet" type="text/css" href="maytinh.css">
 </head>
 
@@ -106,27 +105,25 @@
         if (isset($_POST['delGT'])) {
             $message = "!";
         }
-        if (isset($_POST['delab'])) {
-            $message = "a*b";
-        }
+        
         if (isset($_POST['selectCan'])) {
-            $message = "√";
-           //$message = "sqrt()";
+            //$message = "√";
+           $message = "canbachai";
         }
         if (isset($_POST['selectnCan'])) {
-            $message = "n√";
+            $message = "NCanBacCua";
         }
         if (isset($_POST['selectnCr'])) {
             $message = "nCr";
         }
         if (isset($_POST['selectx2'])) {
-            $message = "x2";
+            $message = "(x2)";
         }
         if (isset($_POST['selectxn'])) {
             $message = "xn";
         }
         if (isset($_POST['selectSin'])) {
-            $message = "Sin";
+            $message = "Sin(";
         }
         if (isset($_POST['select10'])) {
             $message = "*10n";
@@ -135,7 +132,7 @@
             $message = "Π";
         }
         if (isset($_POST['selectCos'])) {
-            $message = "Cos";
+            $message = "Cos(";
         }
         if (isset($_POST['Ans'])) {
             $message = "Ans";
@@ -144,9 +141,9 @@
             $message = "e";
         }
         if (isset($_POST['selectTan'])) {
-            $message = "Tan";
+            $message = "Tan(";
         }
-    if (isset($_POST['GPTB2']))
+    if (isset($_POST['ptbh']))
     { 
         header('Location:ptbachai.php');
      }
@@ -162,34 +159,54 @@
        if (isset($_POST['calculate']))
           
         {   
+            if(strpos ($current_txt, "n√",0)>0)
+            { include "nthRoot.php";
+            $temp1=array_pad(explode("n√",$current_txt),2,n);
+            $temp=NRoot($temp1[1],$temp1[0]);
+            $current_result =$temp;
+            }   
             include "tachChuVaSo.php";
             $str = strtolower($current_txt); 
             $temp=isequal($str);
     
             if( $temp=="cos")
             {
-            $x1=explode("Cos",$current_txt);
+            $x1=explode("Cos(",$current_txt);
             $current_result =cos($x1[1]);
             
             }
             else if( $temp=="sin")
             {
-            $x1=explode("Sin",$current_txt);
+            $x1=explode("Sin(",$current_txt);
             $current_result =sin($x1[1]);
             
             }
             else if( $temp=="tan")
             {
-            $x1=explode("Tan",$current_txt);
+            $x1=explode("Tan(",$current_txt);
             $current_result =tan($x1[1]);
             
             }
             else if( $temp=="x")
             {
-            $x1=explode("x2",$current_txt);
-            $current_result =pow("'.$x1[1].'",2);
+            $x1=explode("(x2)",$current_txt);
+            $current_result =pow($x1[0],2);
+            }
+            else if ($temp=="canbachai")
+            {
+            $temp=explode("canbachai",$current_txt);
+            $current_result =sqrt($temp[1]);
+            }
+            else if ($temp=="ncanbaccua")
+            { include "nthRoot.php";
+            $temp1=explode("NCanBacCua",$current_txt);
+            $temp=NRoot($temp1[1],$temp1[0]);
+            $current_result =$temp;
+                
             }
             else  $current_result = eval('return ' . $current_txt . ';');
+            
+        
         }
        
         if ($message == "Ans"){
@@ -201,18 +218,8 @@
             $current_txt = "";
             $current_result = "0";
         }
-        if ($message=='√')
-            {
-            $temp=array_pad(explode("√",$current_txt),2,null);
-            $current_result =sqrt($temp[1]);
-            }
-        if ( $message=='n√')
-            { include "nthRoot.php";
-            $temp1=array_pad(explode("n√",$current_txt),2,null);
-            $temp=NRoot($temp1[1],$temp1[0]);
-    
-            $current_result =$temp;
-            }   
+        
+        
         
     ?>
 
@@ -233,7 +240,7 @@
             <input type="submit" name="delMo" value="(">
             <input type="submit" name="delDong" value=")">
             <input type="submit" name="delGT" value="!">
-            <input type="submit" name="GPTB2" value="GPTB2">
+            <input type="submit" name="ptbh" value="PTB2">
             <br>
 
             <br>
@@ -242,7 +249,7 @@
             <input type="submit" name="select9" value="9">  
             <input type="submit" name="select/" value="/">
             <input type="submit" name="selectCan" value="√">
-            <input type="submit" name="selectnCan" value="n√">
+            <input type="submit" name="selectnCan" value="^n√">
             <input type="submit" name="selectnCr" value="nCr">
             <br>
 
@@ -251,9 +258,9 @@
             <input type="submit" name="select5" value="5">
             <input type="submit" name="select6" value="6">
             <input type="submit" name="select*" value="*">
-            <input type="submit" name="selectx2" value="x2">
+            <input type="submit" name="selectx2" value="x^2">
             <input type="submit" name="selectxn" value="xn">
-            <input type="submit" name="selectSin" value="Sin">
+            <input type="submit" name="selectSin" value="Sin(">
            <br>
 
            <br>
@@ -262,8 +269,8 @@
             <input type="submit" name="select3" value="3">
             <input type="submit" name="select-" value="-">
             <input type="submit" name="select10" value="*10n">
-            <input type="submit" name="selectpi" value="Π">
-            <input type="submit" name="selectCos" value="Cos">
+            <input type="submit" name="selectpi" value="pi">
+            <input type="submit" name="selectCos" value="Cos(">
             <br>
 
             <br>
@@ -273,7 +280,8 @@
             <input type="submit" name="select+" value="+">
             <td><input type="submit" name="calculate" value="="></td>
             <input type="submit" name="selecte" value="e">
-            <input type="submit" name="selectTan" value="Tan"><br>
+            <input type="submit" name="selectTan" value="Tan(">
+            
  </div>
     </form>
     </div>

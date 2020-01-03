@@ -1,5 +1,4 @@
 
-
 <?php
 
 function NRoot($num, $n) { 

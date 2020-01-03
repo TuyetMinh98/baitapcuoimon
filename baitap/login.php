@@ -73,7 +73,7 @@
 					
 									}else{
 										
-										$_SESSION['username']=$usn;
+										//$_SESSION['username']=$usn;
 										header('Location:maytinh.php');
 									}
 								}
