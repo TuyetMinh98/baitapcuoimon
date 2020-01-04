@@ -139,6 +139,6 @@
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 <h3>👦 Tác giả</h3>
 
-- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL)
+- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL, JS)
 
-- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS, PHP) 
+- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS) 
