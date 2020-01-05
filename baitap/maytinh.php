@@ -260,7 +260,7 @@
             <input type="submit" name="select*" value="*">
             <input type="submit" name="selectx2" value="x^2">
             <input type="submit" name="selectxn" value="xn">
-            <input type="submit" name="selectSin" value="Sin(">
+            <input type="submit" name="selectSin" value="Sin">
            <br>
 
            <br>
@@ -270,7 +270,7 @@
             <input type="submit" name="select-" value="-">
             <input type="submit" name="select10" value="*10n">
             <input type="submit" name="selectpi" value="pi">
-            <input type="submit" name="selectCos" value="Cos(">
+            <input type="submit" name="selectCos" value="Cos">
             <br>
 
             <br>
@@ -280,7 +280,7 @@
             <input type="submit" name="select+" value="+">
             <td><input type="submit" name="calculate" value="="></td>
             <input type="submit" name="selecte" value="e">
-            <input type="submit" name="selectTan" value="Tan(">
+            <input type="submit" name="selectTan" value="Tan">
             
  </div>
     </form>
