@@ -90,6 +90,7 @@
 ![alt text](hinh/moxampp.png)
 
 <p> Vào phpmyadmin trong localhost của bạn. Sau đó import mysqli vào CSDL của bạn để làm việc phần login và sigin.</p>
+<p> Mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.</p>
 
 ![alt text](hinh/Capture.PNG)
 
@@ -97,11 +98,9 @@
 
 -- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
 
--- tm.php : tên file lưu chương trình của bạn.)
+-- index.php : tên file lưu chương trình.
 
 <p>	Nếu bạn muốn làm việc với code:</p>
-
-- Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
 - Mở code download về trong htdots bằng Sublime Text 3 và thực hành.
 
