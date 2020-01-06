@@ -128,7 +128,7 @@
 
 - Tính các phép n căn.
 
-<h1🍀 Hướng phát triển cho bài toán</h1>
+<h1>🍀 Hướng phát triển cho bài toán</h1>
 <p>••	Xử lý ngoại lệ tất cả các trường hợp còn thiếu.</p>
 <p>••	Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất.</p>
 <p>••	Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…</p>
