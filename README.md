@@ -43,7 +43,7 @@
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
   
-- Tên tài khoản và Passwword của người dùng.
+- Cơ sở dữ liệu.
   
 - Các toán hạng từ 0 đến 9
 
