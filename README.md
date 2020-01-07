@@ -3,7 +3,7 @@
 <h1>👉 Mô tả bài toán</h1>
 <h3>📱 Công dụng</h3>
 
-<h4> Công nghệ thông tin đang từng bước đi vào cuộc sống của chúng ta như một người bạn đồng hành, nó có vai trò rất lớn trong sự phát triển của đất nước và trong đời sống của con người. Xây dựng ứng dụng máy tính bỏ túi CALCULATOR để giúp ích cho nhu cầu tính toán của con người với tốc độ nhanh và chính xác.</h4>
+<h4> Công nghệ thông tin đang từng bước đi vào cuộc sống của chúng ta như một người bạn đồng hành, nó có vai trò rất lớn trong sự phát triển của đất nước và trong đời sống của con người. Xây dựng website máy tính bỏ túi CALCULATOR để giúp ích cho nhu cầu tính toán của con người với tốc độ nhanh và chính xác.</h4>
 <p> - Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:</p>
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
@@ -138,6 +138,6 @@
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 <h3>👦 Tác giả</h3>
 
-- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL, JS)
+- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL) và GitHub
 
-- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS) 
+- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS, JS) 
