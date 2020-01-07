@@ -81,8 +81,5 @@
 					?>
 				</article>
 		</section>
-
-
-
 	</body>
 </html>

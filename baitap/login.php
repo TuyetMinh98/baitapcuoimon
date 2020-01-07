@@ -77,15 +77,10 @@
 										header('Location:maytinh.php');
 									}
 								}
-								}
-							
-					?>
-			
-		
+								}							
+					?>			
 				</article>
 		</section>
-
-
 
 	</body>
 </html>

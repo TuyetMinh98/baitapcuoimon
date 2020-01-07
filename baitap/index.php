@@ -33,8 +33,5 @@
 					<div><button id="login">Đăng nhập</button> HOẶC <button id="sigin">Đăng ký</button></div>
 				</article>
 		</section>
-
-
-
 	</body>
 </html>

@@ -18,15 +18,7 @@
     {
         $heso_c = $_POST ['heso_c'];
     }
-    /**
-     * giải phương trình bậc 2 trong PHP
-     * 
-     * @author: viettuts.vn
-     * @param he so bac 2 $a
-     * @param he so bac 1 $b
-     * @param he so tu do $c
-     */
-
+ 
 ?>
     <form class="form-ptbh" action="#" method="post">
         <h4>Giải phương trình bậc 2</h4>
@@ -97,7 +89,5 @@
 
 <br>
 <?php
-// gọi hàm giải phương trình bậc 2
-//Sử dụng từ kháo $GLOBALS để đọc các biến toàn cầu và truyền vào hàm
 
 ?>

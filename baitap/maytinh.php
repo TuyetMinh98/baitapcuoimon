@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-<!--<td colspan="2" style="text-align: center;padding-top: 0.5em;">
-<input name="sign-out" value="Đăng xuất" type="submit" />   </td> -->
+<td colspan="2" style="text-align: center;padding-top: 0.5em;">
+<input name="sign-out" value="Đăng xuất" type="submit" />   </td> 
 <?php
     //if(isset($_POST['sign-out'])){
     session_start();
@@ -218,9 +218,7 @@
             $current_txt = "";
             $current_result = "0";
         }
-        
-        
-        
+             
     ?>
 
 <div class="form">
