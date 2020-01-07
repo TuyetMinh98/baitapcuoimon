@@ -3,7 +3,7 @@
 <h1>👉 Mô tả bài toán</h1>
 <h3>📱 Công dụng</h3>
 
-<h4> Công nghệ thông tin đang từng bước đi vào cuộc sống của chúng ta như một người bạn đồng hành, nó có vai trò rất lớn trong sự phát triển của đất nước và trong đời sống của con người. Xây dựng ứng dụng máy tính bỏ túi CALCULATOR để giúp ích cho nhu cầu tính toán của con người với tốc độ nhanh và chính xác.</h4>
+<h4> Công nghệ thông tin đang từng bước đi vào cuộc sống của chúng ta như một người bạn đồng hành, nó có vai trò rất lớn trong sự phát triển của đất nước và trong đời sống của con người. Xây dựng website máy tính bỏ túi CALCULATOR để giúp ích cho nhu cầu tính toán của con người với tốc độ nhanh và chính xác.</h4>
 <p> - Tính toán kết quả của các phép tính yêu cầu của người dùng từ cơ bản đến nâng cao. Hệ thống mới gồm các chức năng sau:</p>
 <p> + Nhập: Cho phép nhập các số trên bàn phím, các phép toán số học, các phương trình, các phép toán logic...vào trong máy tính.</p>
 
@@ -43,7 +43,7 @@
   <h3> Đầu vào/ đầu ra của bài toán</h3>
   <p> + Input: </p>
   
-- Tên tài khoản và Passwword của người dùng.
+- Cơ sở dữ liệu.
   
 - Các toán hạng từ 0 đến 9
 
@@ -90,6 +90,7 @@
 ![alt text](hinh/moxampp.png)
 
 <p> Vào phpmyadmin trong localhost của bạn. Sau đó import mysqli vào CSDL của bạn để làm việc phần login và sigin.</p>
+<p> Mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.</p>
 
 ![alt text](hinh/Capture.PNG)
 
@@ -97,11 +98,9 @@
 
 -- Trong đó:	8080 là PORT trong Xampp của bạn hiện mở.
 
--- tm.php : tên file lưu chương trình của bạn.)
+-- index.php : tên file lưu chương trình.
 
 <p>	Nếu bạn muốn làm việc với code:</p>
-
-- Hãy inport mysql có tên Calculator.sql vào phần cơ sở dữ liệu của bạn và làm việc.
 
 - Mở code download về trong htdots bằng Sublime Text 3 và thực hành.
 
@@ -129,7 +128,7 @@
 
 - Tính các phép n căn.
 
-<h1>👉 Hướng phát triển cho bài toán</h1>
+<h1>🍀 Hướng phát triển cho bài toán</h1>
 <p>••	Xử lý ngoại lệ tất cả các trường hợp còn thiếu.</p>
 <p>••	Cấu trúc lại toàn bộ code cho đồng bộ và thống nhất.</p>
 <p>••	Xây dựng thêm các chức năng khác nâng cao như tính phân số, số phức, kiểm tra số nguyên tố,…</p>
@@ -139,6 +138,6 @@
 <p>••	Chức năng đổi nhiệt độ (C sang F và ngược lại).</p>
 <h3>👦 Tác giả</h3>
 
-- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL, JS)
+- 👧🏼 Nguyễn Thị Tuyết Minh: Back End Developper (PHP, MySQL) và GitHub
 
-- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS) 
+- 👧 Hoàng Thị Mỹ Duyên: Front End Developper (HTML, CSS, JS) 
